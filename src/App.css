@@ -4,11 +4,63 @@ body {
   background: #eaf4ff;
 }
 
-div {
+.app {
+  min-height: 100vh;
   text-align: center;
+  padding: 50px 20px;
 }
 
 h1 {
   color: #2563eb;
-  margin-top: 50px;
+  font-size: 40px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+input {
+  padding: 15px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 15px 22px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+}
+
+.weather-card {
+  background: white;
+  max-width: 350px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px #0002;
+}
+
+.weather-card h2 {
+  font-size: 30px;
+}
+
+.weather-card h1 {
+  font-size: 50px;
+  margin: 15px;
+}
+
+.weather-card p {
+  font-size: 18px;
+}
+
+.error {
+  color: red;
 }
