@@ -1,7 +1,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-image: url("/weather-bg.jpg");
+  background-image: url("/weather-bg.PNG");
   background-size: cover;
   background-position: center;
 }
