@@ -49,6 +49,13 @@ function App() {
       </div>
 
       {error && <p className="error">{error}</p>}
+      {!weather && !error && (
+  <div className="welcome">
+    <div className="welcome-icon">🌤️</div>
+    <h2>How's the weather today?</h2>
+    <p>Enter a city above to discover its weather.</p>
+  </div>
+)}
 
       {weather && (
         <div className="weather-card">
