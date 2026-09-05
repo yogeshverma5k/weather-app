@@ -1,7 +1,9 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #eaf4ff;
+  min-height: 100vh;
+  background-image: url("/weather-bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .app {
@@ -40,7 +42,7 @@ button {
 }
 
 .weather-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.75);
   max-width: 350px;
   margin: 30px auto;
   padding: 30px;
