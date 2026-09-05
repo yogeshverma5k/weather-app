@@ -13,8 +13,9 @@ body {
 }
 
 h1 {
-  color: #2563eb;
+  color: white;
   font-size: 40px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .search {
